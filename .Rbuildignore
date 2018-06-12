@@ -1,2 +1,8 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^dendroTools2\.Rproj$
+^\.travis\.yml$
+^README\.md$
+^README-.*\.png$
+^revdep$
