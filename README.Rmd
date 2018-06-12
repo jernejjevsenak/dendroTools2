@@ -1,0 +1,32 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# dendroTools2
+
+This is a smaller version of the dendroTools package. Functions that relays on rJava are removed. 
+
+## Installation
+
+You can install dendroTools2 using:
+```{r gh-installation, eval = FALSE}
+library("devtools")
+devtools::install_github("jernejjevsenak/dendroTools2") # current version under development
+
+```
+
+## Author
+* **Jernej Jevšenak**
+
+## Collaborators
+* **Prof. dr. Tom Levanic**
