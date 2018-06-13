@@ -104,8 +104,9 @@
 #' @export
 #'
 #' @examples
-#' # Load the dendroTools2 R package
-#' library(dendroTools2)
+#' \dontrun{
+#' # Load the dendroTools R package
+#' library(dendroTools)
 #'
 #' # Load data
 #' data(data_MVA)
@@ -173,6 +174,7 @@
 #'                                      remove_insignificant = TRUE, alpha = 0.05)
 #'
 #' example_multiproxy$plot_heatmap
+#' }
 
 daily_response <- function(response, env_data, method = "lm",
                            metric = "r.squared", lower_limit = 30,
