@@ -164,8 +164,8 @@ matrix of daily sequences of environmental data (column names).
 }
 \examples{
 \dontrun{
-# Load the dendroTools R package
-library(dendroTools)
+# Load the dendroTools2 R package
+library(dendroTools2)
 
 # Load data
 data(data_MVA)

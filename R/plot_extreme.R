@@ -23,7 +23,6 @@
 #' @return A ggplot2 object containing the plot display
 #'
 #' @examples
-#' \dontrun{
 #' data(LJ_daily_temperatures)
 #' data(example_proxies_1)
 #' Example1 <- daily_response(response = example_proxies_1,
@@ -50,7 +49,6 @@
 #' metric = "r.squared", lower_limit = 30, upper_limit = 120, neurons = 1,
 #' row_names_subset = TRUE, previous_year = TRUE)
 #' plot_extreme(Example4)
-#' }
 #'
 #' @keywords internal
 

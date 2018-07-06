@@ -16,7 +16,7 @@
 #'
 #'
 #' @examples
-#' library(dendroTools)
+#' library(dendroTools2)
 #' data(LJ_daily_temperatures)
 #' data(example_proxies_1)
 #' Example1 <- daily_response(response = example_proxies_1,
