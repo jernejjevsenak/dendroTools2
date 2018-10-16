@@ -21,6 +21,7 @@
 #' @return A ggplot2 object containing the heatmap display
 #'
 #' @examples
+#' \dontrun{
 #' data(LJ_daily_temperatures)
 #' data(example_proxies_1)
 #' Example1 <- daily_response(response = example_proxies_1,
@@ -40,6 +41,7 @@
 #' env_data = LJ_daily_temperatures, method = "cor", lower_limit = 50,
 #' upper_limit = 55, previous_year = TRUE, row_names_subset = TRUE)
 #' plot_heatmap(Example3)
+#' }
 #'
 #' @keywords internal
 

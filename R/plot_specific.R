@@ -23,6 +23,7 @@
 #' @return A ggplot2 object containing the plot display
 #'
 #' @examples
+#' \dontrun{
 #' data(LJ_daily_temperatures)
 #' data(KRE_daily_temperatures)
 #' data(example_proxies_1)
@@ -43,6 +44,7 @@
 #' metric = "adj.r.squared", lower_limit = 150, upper_limit = 155,
 #' neurons = 1, previous_year = TRUE, row_names_subset = TRUE)
 #' plot_specific(Example3, window_width = 153, title = TRUE)
+#' }
 #'
 #' @keywords internal
 
